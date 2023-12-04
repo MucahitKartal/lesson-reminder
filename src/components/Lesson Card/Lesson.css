@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100px;
+  height: 100px;
+  object-fit: fill;
+}
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Rubik Vinyl", cursive;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(79, 9, 121, 1) 33%,
+    rgba(135, 17, 107, 1) 67%,
+    rgba(207, 28, 90, 1) 100%,
+    rgba(255, 0, 127, 1) 100%
+  );
+  color: white;
+}
+.container {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(79, 9, 121, 1) 33%,
+    rgba(135, 17, 107, 1) 67%,
+    rgba(207, 28, 90, 1) 100%,
+    rgba(255, 0, 127, 1) 100%
+  );
+  width: 100vw;
+  height: 84.6vh;
+}
+.lessons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 80%;
+  height: 40%;
+  border-radius: 1rem;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.375);
+  gap: 1rem;
+}
+.items {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+span {
+  color: orange;
+}
